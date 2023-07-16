@@ -1,30 +1,52 @@
 import React from "react";
+/* import explained - what are we importing ?
+we are importing React from "react" module that is present in node_modules 
+*/
 import ReactDOM from "react-dom/client";
+/* import Explained - what are we importing ?
+we are importing ReactDOM  from "react-dom module that is present in node_modules"
+ */
 
-//JSX [JavaScript XML ]Super Power - 2 
-//cross side scripting explained - 
+// what is React.Fragement ?
 
-/* What is cross side scripting ? */
-/* 
-Basically whenever a attacker tries to inject  some sort of scripts in user 
-appplication through a click button or any event and then can control the user application then it is known as 
-a security vulnerability as cross side scripting.
+/*
+So in JSX we have a only one parent level  root so if we want 
+to have multiple  root then how can we achieve it ?
+ we can achieve that by React. fragement 
+ React Fragement is nothing but a  empty tag that is the parent tag 
+ and inside that we have  the other child tags so it satisfy JSX condition to have a
+ one and only one parent tag .
 
-so even ewhe through an api a mailicious data is coming then also 
-JSX  has a super power it does not directly assigns the data from the api 
-First it checks and sanitize the data from the api then assigns it to JSX .
+*/
+//For eg :
+/*if we include without react.fragement we get error in JSX that 
+we  should have one and only one root level parent .
+"JSX expressions must have one parent element."
+To overcome that   we have introduced React.Fragement 
+*/
+const Heading = () => (
+  <React.Fragment>
+    <div>
+      <h1 className="heading">Hi There I am a heading</h1>
+    </div>
+
+    <div>
+      <h1>HEY i am another div </h1>
+    </div>
+  </React.Fragment>
+);
+
+// What if i replaced </React.Fragment> with  this <> will it work ?
+/* yes , it will work because the React fragement at the end of the day is 
+empty tag.
+So , the bottom example is equivalent to the above example .
 */
 
-//For eg :
-
-const fetchApi = api.getData(); //getting malacious data through getData();
-
-const heading = () =>
+const Heading2 = () =>
 (
-    <div>
-    <h1>HI THERE CAN JSX PRINT MALICIOUS DATA ?</h1>
-     <p>{ fetchApi }</p>
-    <h2>NO , it can't  JSX has a super power it will sanitize
-         the data and then assign it . Wohooooo !!!</h2>
-    </div>
+    <> 
+    <div>Hello I am heading 2</div>
+    <div>Hello I am heading 3</div>
+    </>
 )
+
