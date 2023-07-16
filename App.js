@@ -34,12 +34,25 @@ const Heading = () => (
       <h1>HEY i am another div </h1>
     </div>
   </React.Fragment>
+
+  
 );
 
 // What if i replaced </React.Fragment> with  this <> will it work ?
 /* yes , it will work because the React fragement at the end of the day is 
 empty tag.
 So , the bottom example is equivalent to the above example .
+can i have two React fragement ?
+No , because JSX should only have one parent level root .
+and JSX is transipiled by "babel" into  React.createElement which is at the end of the day 
+is a Javascript object .
+
+Babel is introduced by ?
+
+Babel is introduced by parcel  which is in node_modules 
+and  parcel is managing the babel  
+
+
 */
 
 const Heading2 = () =>
