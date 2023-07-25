@@ -31,6 +31,44 @@ In summary, a framework provides a complete software platform with predefined ar
 
 */
 
+/* what is cdn ?why do we use it ?
 
+A Content Delivery Network (CDN) is a network of geographically distributed servers that work together to efficiently deliver web content, such as images, videos, CSS, JavaScript, and other files, to users based on their geographical location. The primary goal of a CDN is to reduce latency and improve the performance and availability of web content for end-users.
+
+CDNs work by caching and storing copies of website content on multiple servers located in different regions or points of presence (PoPs) around the world. When a user requests a specific piece of content, the CDN automatically serves that content from the server closest to the user's location, rather than from the original server (origin server) where the website is hosted.
+
+The main reasons for using a CDN are:
+
+1. Faster Content Delivery: By serving content from a server closer to the user, CDNs reduce the physical distance data needs to travel, which results in lower latency and faster content loading times. This is especially important for large files like images and videos, which can significantly impact page load times.
+
+2. Improved Website Performance: Faster content delivery leads to improved website performance, making the site more responsive and providing a better user experience. Studies have shown that faster websites lead to increased user engagement, longer visit durations, and higher conversion rates.
+
+3. Scalability: CDNs help distribute website traffic across multiple servers, ensuring that the website can handle high traffic loads and sudden spikes in user demand without experiencing performance issues or downtime.
+
+4. Global Reach: CDNs have a vast network of servers spread across various regions, allowing websites to reach users all around the world with minimal latency. This global reach is particularly beneficial for businesses and websites with an international audience.
+
+5. Load Balancing: CDNs automatically balance the traffic load across their servers, optimizing resource usage and ensuring that no single server becomes overloaded, leading to a more stable and reliable website.
+
+6. Bandwidth Savings: CDNs help reduce the bandwidth usage on the origin server since much of the content is cached and served from the CDN's servers. This can result in cost savings for the website owner, especially for websites with high traffic volumes.
+
+In summary, a CDN is a distributed network of servers that caches and delivers web content closer to end-users, resulting in faster load times, improved website performance, and better user experiences. It is a crucial tool for websites and online services that aim to provide content quickly and reliably to users worldwide.
+
+*/
+
+/*Why is React known as React ?
+
+React is known as "React" because the name represents the core idea behind the library: the ability to react to changes in data and update the user interface (UI) accordingly.
+
+React is an open-source JavaScript library developed by Facebook for building user interfaces, especially for web applications. It was first released in 2013. The fundamental concept behind React is the concept of a "reactive" or "declarative" approach to building UI components.
+
+In traditional web development, when data changes, developers manually update the DOM (Document Object Model) to reflect those changes. This process can become complex and error-prone, especially in large applications. React introduced a new way of handling UI updates by creating a virtual representation of the DOM called the "Virtual DOM."
+
+When the data in a React application changes, instead of directly manipulating the actual DOM, React creates a virtual representation of how the DOM should look after the change. It then compares this virtual DOM with the actual DOM and calculates the minimal set of changes needed to update the UI. This process is often referred to as "reconciliation."
+
+The "reactive" aspect of React comes from how it automatically updates the UI in response to changes in data. When the underlying data changes, React "reacts" to those changes and efficiently updates the UI components without the need for manual intervention.
+
+The name "React" was chosen to highlight the library's reactive nature and its ability to efficiently update the UI by "reacting" to changes in data. The concept of reactive programming has become a significant paradigm in modern web development, and React played a crucial role in popularizing it within the JavaScript community.
+
+*/
 
 
