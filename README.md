@@ -5,7 +5,7 @@ Namaste React Course from Zero to Hero 🚀 by Akshay Saini Founder of NamasteDe
 This project is a part of the "Namaste React" course by Akshay Saini.
 It's a testament to the knowledge and skills gained during this course.
 
-# 🌮 TastyFood: Discover Culinary Delights 🍽️
+# 🌮 TastyFood: Discover Culinary Delights 🍽️  [Live](https://tastyfood15.netlify.app/)
 
 Welcome to **TastyFood**, where culinary adventures await! Dive into a world of exceptional flavors and seamless food ordering experiences. My app is designed to tantalize your taste buds and simplify your culinary adventures.
 
@@ -69,13 +69,13 @@ To get started with TastyFood, follow these simple steps:
 1. **Clone the Repository**:
 
   
-   git clone https://github.com/Nitya-Somani/Namaste-React.git
+   ``` git clone https://github.com/Nitya-Somani/Namaste-React.git ```
 
 1. Install Dependencies:
-    - npm install
+     ``` npm install ```
 
 2. Start the Development Server:
- - npm start 
+ ```npm start``` 
 
 Visit and Explore 🌐
 To experience the magic of TastyFood, visit TastyFood App - https://tastyfood15.netlify.app/.

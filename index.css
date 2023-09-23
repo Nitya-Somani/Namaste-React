@@ -1,3 +1,5 @@
+
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -288,6 +290,8 @@ body::-webkit-scrollbar-thumb {
 .restaurantContainer {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; 
 }
 
 .restaurantContainer > a {
@@ -311,7 +315,7 @@ body::-webkit-scrollbar-thumb {
   background-color: #fff;
   box-shadow: 10px 10px 40px 2px rgba(128, 128, 128, 0.4);
   display: inline-block;
-  width: 355px;
+  width: 300px;
   border-radius: 10px;
 }
 
@@ -326,8 +330,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .card:hover .card-media img {
-  transform: scale(0.9);
-  /* Adjust the scale factor for the zoom effect */
+  transform: scale(.97);
   border-radius: 10px;
 }
 

@@ -1,10 +1,8 @@
-
 import { IMG_URL } from "../utils/commonLinks";
 
 const RestaurantCard = (resData) => {
-  const { cloudinaryImageId, name, avgRating, cuisines, costForTwo, areaName, locality } = resData?.resData.info;
- 
-
+  const { cloudinaryImageId, name, avgRating, cuisines, costForTwo } =
+    resData?.resData.info;
 
   return (
     <div className="cards-container">
@@ -20,15 +18,14 @@ const RestaurantCard = (resData) => {
               <p className="place-speciality">{cuisines.join(", ")}</p>
             </div>
             <div className="place-review">
-              <p className="rating">{avgRating}  &#x2605;</p>
-              <p className="per-person">  {costForTwo}</p>
+              <p className="rating">{avgRating} &#x2605;</p>
+              <p className="per-person">Cost for Two: ${costForTwo}</p>
             </div>
           </div>
         </div>
       </div>
     </div>
-
-  )
-}
+  );
+};
 
 export default RestaurantCard;
