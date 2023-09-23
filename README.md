@@ -95,8 +95,7 @@ Savor a consistently delightful experience, whether you're on desktop, tablet, o
 
 🌐 Important: CORS Extension 🌐 - To enhance your experience on TastyFood, please consider enabling a CORS extension in your browser. This will allow our live API from Swiggy to function seamlessly. 
 
-🤝 Contributing
-We welcome contributions! If you'd like to contribute to TastyFood , please feel free to contribute it . 
+
 
 🙌 Acknowledgments
 We'd like to thank the following libraries and tools that made TastyFood possible:
@@ -109,4 +108,4 @@ We'd like to thank the following libraries and tools that made TastyFood possibl
 - **Babel.js**
 
 
-Thank you for being a part of the TastyFood Project ! Bon appétit! 🍽️
+Bon appétit! 🍽️
