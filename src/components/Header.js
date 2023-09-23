@@ -10,7 +10,7 @@ const Header = () => {
   return (
         <nav className="navbar navbar-expand-sm p-3 fixed-top">
           <div className="container-fluid">
-            <a className="navbar-brand" href="#">
+            <a className="navbar-brand" href="https://tastyfood15.netlify.app/">
               <img src={LOGO_URL} alt="NS Logo" className="logo-img" style={{ width: "90px" }} />
             </a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
