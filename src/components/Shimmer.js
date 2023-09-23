@@ -2,8 +2,8 @@ const Shimmer = ()=>{
     return(
         
         <div className="Shimmerbody">
-            <div class="loader">
-  <div class="loader__element"></div>
+            <div className="loader">
+  <div className="loader__element"></div>
 </div>
         <button className="ShimmerfilterButton" >
           <span className="hover-underline-animation"> Prime Dines </span>

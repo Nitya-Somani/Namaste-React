@@ -40,9 +40,9 @@ const RestaurantMenu = () => {
               <p>
                 {locality},{city}
               </p>
-              <div class="place-review">
-                <p class="rating">{avgRatingString} ★</p>
-                <p class="per-person"> {costForTwoMessage}</p>
+              <div className="place-review">
+                <p className="rating">{avgRatingString} ★</p>
+                <p className="per-person"> {costForTwoMessage}</p>
               </div>
               <div className="single_line"></div>
             </div>
